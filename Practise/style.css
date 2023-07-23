@@ -1,0 +1,49 @@
+body{
+    width: 100%;
+    background-image: url(./124552.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 300px; 
+    background-color: beige; 
+    font-size: xx-large;
+    color: white;
+}
+body h1{
+    border: dashed;
+    text-align: center; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#heading h1{
+    border: dotted;
+    background-color: rgb(12, 18, 29);
+    height: 70px;
+    border-style:initial; 
+}
+#email input{
+    font-size: xx-large;
+    height: 40px;
+    width: 400px;
+    border-radius: 5px;
+}
+#Address input{
+    font-size: xx-large;
+    height: 40px;
+    width: 400px;
+    border-radius: 5px;
+}
+#Phone input{
+    font-size: xx-large;
+    height: 40px;
+    width: 400px;
+    border-radius: 5px;
+}
+.table{
+    font-size: larger;
+}
+h3{
+    background-color: rgb(5, 12, 12);
+    height: 50px;
+}
+img{
+    height: 700px; width: 500px;
+}
