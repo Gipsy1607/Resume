@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsiveness Practise</title>
+    <style>
+        #styling{
+            width: 100%;
+            background-color: chartreuse;
+            justify-content: space-evenly;
+            display: flex;
+            flex-direction: row;
+        }
+        #styling div{
+            border: 3px solid black;
+            height: 300px;
+            width:  40%;
+            text-align: center;
+            font-size: xx-large;
+        }
+
+        @media screen and (max-width: 500px) {
+            #styling{
+            width: 100%;
+            background-color:rgb(200, 249, 4);
+            justify-content: space-around;
+            display: flex;
+            flex-direction: column;
+        }
+        #styling div{
+            border: 3px solid blue;
+            height: 300px;
+            width:  90%;
+            text-align: left;
+            font-size: 40px;
+        }
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="styling">
+        <div>1 This Is One Children!</div>
+        <div>2 This Is Two Children!</div>
+        <div>3 
+            <h1>This Is Three Children!</h1>
+            <div>1 Grand children</div>
+            <div>2 Grand children</div>
+            <div>3 Grand children</div>
+            <div>
+                <h2>4 Grand children</h2>
+                <div>This is One Great Grand Children</div>
+                <div>This is Two Great Grand Children</div>
+            </div>
+        </div>
+        <div>4 This Is Fourth Children!</div>
+    </div>
+</body>
+</html>
